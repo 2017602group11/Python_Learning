@@ -2,5 +2,5 @@
 ## Secondary Heading
 ###Tertiary Heading
 
-*list item1
-*list item2
+* list item1
+* list item2
