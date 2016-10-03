@@ -1,6 +1,5 @@
-# test-repo
-## Secondary Heading
-###Tertiary Heading
+# Python Learning
+## This repository contains implementation of basic data structures and algorithms in Python 3
 
-* list item1
-* list item2
+### it contains the following:
+* User define classes
