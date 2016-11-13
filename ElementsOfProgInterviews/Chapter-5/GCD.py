@@ -12,3 +12,23 @@ def GCD(A,B):
         return GCD(B,rem)
 
 print(GCD(16,12))
+
+
+
+#%%
+"""
+Method 2:
+"""
+
+def GCD(x,y):
+    if (x==0) & (y!=0):
+        return y
+    elif (y==0) & (x!=0):
+        return x
+    elif x>y:
+        return GCD(y,x-y)
+    else:
+        return GCD(x,y-x)
+        
+          
+print(GCD(8,12))
