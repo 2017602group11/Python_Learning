@@ -1,8 +1,16 @@
-a=2
-b=3
+def Swap1(a,b):
+    a=a^b
+    b=b^a
+    a=a^b
+    return a,b
 
-a=a^b
-b=b^a
-a=a^b
+print(Swap1(3,5))
 
-print(a," ",b)
+#%%
+def Swap2(a,b):
+    a=a+b
+    b=a-b
+    a=a-b
+    return a,b
+    
+print(Swap2(3,5))
