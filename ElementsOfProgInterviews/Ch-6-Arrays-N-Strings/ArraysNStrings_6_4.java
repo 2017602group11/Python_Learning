@@ -29,12 +29,21 @@ public class ArraysNStrings_6_4 {
 		}
 		
 		int maxprofit=0;
-		for (int k=0;k<=A.length; k++){
+		for (int k=0;k<A.length; k++){
 			maxprofit = Math.max( maxprofit, left[k]+right[k]);
+			System.out.println(left[k]+"--"+right[k]);
 		}
-		System.out.println(min+' '+max);
+		
 		
 		return maxprofit;	
+	}
+	
+	
+	//solution problem 2
+	public static int max_k_pairs_profits(int[] A, int k){
+		int[][] k_sum = new int[A.length ][k+1];
+		for(int i=0;i<A.length ;++i){
+		}
 	}
 	
 	public static void main(String[] args){
