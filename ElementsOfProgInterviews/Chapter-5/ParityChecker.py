@@ -47,5 +47,11 @@ def parity3(num):
         parity_lookup[(num>>16)&(16**4-1)]^ \
         parity_lookup[(num)&(16**4-1)]  #16**4-1 is 0xFFFF for masking
     return res
+
+# Recursion
+def parity4(x):
+    if x<=1:
+        return x
+    return x&1 ^  parity(x>>1)
                       
 parity3(65535)
